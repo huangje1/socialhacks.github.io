@@ -1,0 +1,76 @@
+body {
+   font-size: 2em;
+   padding-top: 100px;
+   background-image: url("../img/background.png");
+   background-repeat: repeat;
+}
+
+@font-face {
+	font-family: LemonMilk;
+	src: url('../font/LemonMilk.otf');
+}
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+
+.navbar-custom {
+   height: 3em;
+   background-color: #fff;
+   text-transform: uppercase;
+   color: #fff;
+   text-align: center;
+}
+
+.navbar .nav > li > a {
+  line-height: 20px;
+}
+
+.navbar-default li.hello a {
+   font-family: LemonMilk;
+   color: #000;
+   font-size: 0.75em;
+   padding-top: 3px;
+   padding-bottom: 3px;
+   margin: 15px 10px;
+}
+
+#landing {
+    margin: auto;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+}
+
+#menu li a {
+   color: #000;
+}
+
+#navigation li.hello a {
+   color: #000;
+}
+
+.navbar-toggle {
+   background-color: #000;
+   right: 10px;
+   width: 3em;
+   height: 3em;
+}
+
+.navbar-toggle collapse {
+   background-color: #000;
+   overflow: auto;
+}
+
+h1 {
+  font-family: LemonMilk;
+  color: #21bede;
+  letter-spacing: 2px;
+}
