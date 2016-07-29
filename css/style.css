@@ -10,36 +10,50 @@ body {
 	src: url('../font/LemonMilk.otf');
 }
 
-.navbar .navbar-nav {
-  display: inline-block;
-  float: none;
-  vertical-align: top;
-}
-
-.navbar .navbar-collapse {
+.navbar-custom {
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 3;
+  font-family: LemonMilk, Arial, sans-serif;
+  background: #fff;
   text-align: center;
 }
-
-
-.navbar-custom {
-   height: 3em;
-   background-color: #fff;
-   text-transform: uppercase;
-   color: #fff;
-   text-align: center;
+.navbar-custom .navbar-brand {
+  font-weight: 800;
 }
-
-.navbar .nav > li > a {
-  line-height: 20px;
+.navbar-custom .navbar-header .navbar-toggle {
+  color: #777777;
+  font-weight: 800;
+  text-transform: uppercase;
+  font-size: 12px;
 }
-
-.navbar-default li.hello a {
-   font-family: LemonMilk;
-   color: #000;
-   font-size: 0.75em;
-   padding-top: 3px;
-   padding-bottom: 3px;
-   margin: 15px 10px;
+.navbar-custom .nav li a {
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+@media only screen and (min-width: 768px) {
+  .navbar-custom {
+    background: #fff;
+    border-bottom: 1px solid transparent;
+  }
+  .navbar-custom .navbar-brand {
+    color: black;
+    padding: 20px;
+  }
+  .navbar-custom .navbar-brand:hover,
+  .navbar-custom .navbar-brand:focus {
+    color: black;
+  }
+  .navbar-custom .nav li a {
+    background: #fff;
+    padding: 20px;
+  }
+  .navbar-custom .nav li a:hover,
+  .navbar-custom .nav li a:focus {
+    background: #fff;
+  }
 }
 
 #landing {
@@ -49,19 +63,29 @@ body {
     text-align: center;
 }
 
+#about {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 100%;
+    text-align: center;
+    background:none;
+    color: #fff;
+}
+
+#schedule {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 100%;
+    text-align: center;
+    background-color: #116798;
+}
+
 #menu li a {
    color: #000;
 }
 
 #navigation li.hello a {
    color: #000;
-}
-
-.navbar-toggle {
-   background-color: #000;
-   right: 10px;
-   width: 3em;
-   height: 3em;
 }
 
 .navbar-toggle collapse {
@@ -73,4 +97,10 @@ h1 {
   font-family: LemonMilk;
   color: #21bede;
   letter-spacing: 2px;
+}
+
+h2 {
+  font-family: LemonMilk;
+  color: #fff;
+  letter-spacing: 3px;
 }
