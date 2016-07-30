@@ -1,13 +1,19 @@
+@font-face {
+	font-family: LemonMilk;
+	src: url('../font/LemonMilk.otf');
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url('../font/roboto/Roboto-Regular.woff');
+}
+
 body {
+  font-family: Roboto, Arial, sans-serif;
    font-size: 2em;
    padding-top: 100px;
    background-image: url("../img/background.png");
    background-repeat: repeat;
-}
-
-@font-face {
-	font-family: LemonMilk;
-	src: url('../font/LemonMilk.otf');
 }
 
 .navbar-custom {
