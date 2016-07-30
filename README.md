@@ -1,5 +1,5 @@
-# Social Hacks 2016
-Website for Social Hacks 2016
+# Social Hacks
+Website for Social Hacks
 
 ## Copyright Information
 

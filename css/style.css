@@ -94,6 +94,13 @@ body {
    color: #000;
 }
 
+footer {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  width: 100%;
+  text-align: center;
+}
+
 .navbar-toggle collapse {
    background-color: #000;
    overflow: auto;
