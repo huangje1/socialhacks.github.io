@@ -101,6 +101,16 @@ footer {
   text-align: center;
 }
 
+#cc-icons {
+  padding: 15px;
+  display: block;
+  margin: auto;
+}
+
+/*img .cc-icon {
+  margin: 20%;
+}*/
+
 .navbar-toggle collapse {
    background-color: #000;
    overflow: auto;
