@@ -1,13 +1,24 @@
 body {
-   font-size: 2em;
-   padding-top: 100px;
-   background-image: url("../img/background.png");
-   background-repeat: repeat;
+  font-family: Arial, sans-serif;
+  font-size: 3em;
+  padding-top: 100px;
+  background-image: url("../img/background.png");
+  background-repeat: repeat;
 }
 
 @font-face {
 	font-family: LemonMilk;
 	src: url('../font/LemonMilk.otf');
+}
+
+.btn-custom {
+  background: none;
+  width: 250px;
+  height: 50px;
+  margin-right: 20px;
+  font: 20px Arial;
+  border-radius: 25px;
+  color: #116798;
 }
 
 .navbar-custom {
@@ -33,7 +44,7 @@ body {
   font-size: 14px;
   letter-spacing: 1px;
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 800px) {
   .navbar-custom {
     background: #fff;
     border-bottom: 1px solid transparent;
@@ -56,28 +67,35 @@ body {
   }
 }
 
+footer {
+  background-color: #fff;
+  color: black;
+  padding: 20px;
+  text-align:center;
+}
+
 #landing {
     margin: auto;
+    margin-top:-10px;
     width: 100%;
-    height: 100vh;
+    height: 80vh;
     text-align: center;
 }
 
-#about {
-    margin-top: 100px;
-    margin-bottom: 100px;
-    width: 100%;
-    text-align: center;
-    background:none;
-    color: #fff;
+#about, #FAQ, #schedule, #judges {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  width: 100%;
+  text-align: center;
+  background:none;
+}
+
+#about, #judges, #FAQ {
+    color: #000;
 }
 
 #schedule {
-    margin-top: 100px;
-    margin-bottom: 100px;
-    width: 100%;
-    text-align: center;
-    background-color: #116798;
+    color: #fff;
 }
 
 #menu li a {
@@ -101,6 +119,6 @@ h1 {
 
 h2 {
   font-family: LemonMilk;
-  color: #fff;
+  color: #000;
   letter-spacing: 3px;
 }
