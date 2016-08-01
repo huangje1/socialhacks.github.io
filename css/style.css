@@ -1,6 +1,7 @@
 body {
   font-family: Arial, sans-serif;
   font-size: 2em;
+  line-height: 2em;
   padding-top: 100px;
   background-image: url("../img/background.png");
   background-repeat: repeat;
@@ -12,13 +13,27 @@ body {
 }
 
 .btn-custom {
-  background: none;
-  width: 250px;
+  font-size: 100px;
+  width: 150px;
   height: 50px;
   margin-right: 20px;
-  font: 20px Arial;
-  border-radius: 25px;
-  color: #116798;
+  margin-bottom: 20px;
+  font-family: LemonMilk, Arial, sans-serif;
+  font-size: 12px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  border-radius: 15px;
+  border-color: #085dad;
+  border-width: thick;
+  color: #fff;
+  background-color: #085dad;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+.btn-custom:hover {
+  color: #085dad;
+  background-color: #fff;
 }
 
 .navbar-custom {
@@ -79,8 +94,11 @@ footer {
     margin: auto;
     margin-top:-10px;
     width: 100%;
-    height: 100vh;
+    height: 90vh;
     text-align: center;
+    text-transform: uppercase;
+    font-size: 1em;
+    color: #8cc739;
 }
 
 #about, #FAQ, #schedule, #judges {
@@ -116,7 +134,7 @@ footer {
 
 h1 {
   font-family: LemonMilk;
-  color: #21bede;
+  color: #6a7170;
   letter-spacing: 2px;
 }
 
@@ -125,4 +143,8 @@ h2 {
   color: #000;
   font-size: 50px;
   letter-spacing: 10px;
+}
+
+.cc-icon {
+  margin-left: 100px;
 }
