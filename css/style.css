@@ -53,6 +53,14 @@ body {
   color: #116798;
 }
 
+.btn-custom:active{
+  color: #000;
+}
+
+.btn-custom:focus,.btn-custom:active {
+   outline: none !important;
+}
+
 .navbar-custom {
   top: 0;
   left: 0;
@@ -163,5 +171,5 @@ h2 {
 }
 
 .cc-icon {
-  margin-left: 100px;
+  margin-right: 5%;
 }
