@@ -21,7 +21,7 @@ body {
   width: 250px;
   height: 50px;
   margin-right: 20px;
-  font: 20px Arial;
+  font: 20px;
   border-radius: 25px;
   color: #116798;
 }
@@ -31,7 +31,7 @@ body {
   left: 0;
   width: 100%;
   z-index: 3;
-  font-family: LemonMilk, Arial, sans-serif;
+  font-family: LemonMilk;
   background: #fff;
   text-align: center;
 }
