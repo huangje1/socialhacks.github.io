@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 body {
   font-family: Arial, sans-serif;
   font-size: 2em;
@@ -6,11 +5,12 @@ body {
   padding-top: 100px;
   background-image: url("../img/background.png");
   background-repeat: repeat;
-=======
+}
+
 @font-face {
   font-family: Roboto;
   src: url('../font/roboto/Roboto-Regular.woff');
->>>>>>> 6a084a6e1fe414d47e3782909bc2b8e948257563
+
 }
 
 @font-face {
@@ -31,7 +31,6 @@ body {
   width: 150px;
   height: 50px;
   margin-right: 20px;
-<<<<<<< HEAD
   margin-bottom: 20px;
   font-family: LemonMilk, Arial, sans-serif;
   font-size: 12px;
@@ -49,11 +48,9 @@ body {
 .btn-custom:hover {
   color: #085dad;
   background-color: #fff;
-=======
   font: 20px;
   border-radius: 25px;
   color: #116798;
->>>>>>> 6a084a6e1fe414d47e3782909bc2b8e948257563
 }
 
 .navbar-custom {
