@@ -65,11 +65,16 @@ body {
 .navbar-custom .navbar-brand {
   font-weight: 800;
 }
-.navbar-custom .navbar-header .navbar-toggle {
+.navbar-custom .navbar-header {
   color: #777777;
   font-weight: 800;
   text-transform: uppercase;
-  font-size: 12px;
+  font-size: 1px;
+}
+
+.navbar-toggle {
+  font-size: 10px;
+
 }
 .navbar-custom .nav li a {
   text-transform: uppercase;
@@ -174,4 +179,30 @@ h2 {
   margin-right: 0.4%;
   margin-top: 0.2%;
   margin-bottom: 1%;
+}
+
+#left {
+  font-size: 14px;
+  line-height: 14px;
+  text-align: left;
+  position: relative;
+  float: left;
+  display: inline-block;
+  width: 50%;
+}
+
+#right {
+  font-size: 14px;
+  line-height: 14px;
+  text-align: right;
+  width: 50%;
+  position: relative;
+  float: right;
+  display: inline-block;
+}
+
+td {
+  width: 30%;
+  top:0;
+  height: 200px;
 }
