@@ -208,6 +208,10 @@ td {
 }
 
 #map {
-  height: 400px;
-  width: 100%;
+  width: 90%;
  }
+
+
+#where {
+  background-color: #116798;
+}
