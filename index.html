@@ -24,11 +24,9 @@
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
-   <script>
-    var shiftWindow = function() { scrollBy(0, -100) };
-    window.addEventListener("hashchange", shiftWindow);
-    function load() { if (window.location.hash) shiftWindow(); }
-  </script>
+   <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDd7tRz5yBgGnU22tR2x-S8YJFwdeZUXW0&callback=initMap">
+    </script>
 
 
 </head>
@@ -57,6 +55,9 @@
                 </li>
                 <li>
                     <a href="#about">About</a>
+                </li>
+                <li>
+                  <a href="#where">Where</a>
                 </li>
                 <li>
                     <a href="#FAQ">FAQ</a>
@@ -103,6 +104,13 @@
 </div>
 </div>
 
+<a name = "where"></a>
+  <iframe
+  width="100%"
+  height="500px"
+  frameborder="0" style="border:0"
+  src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBXc3SZWHzq1arpOJhy8_aesVlUISCI1dA&q=ThoughtWorks+Inc,+New+York+NY" allowfullscreen>
+</iframe>
 
 <a name="FAQ"></a>
 <div class="container-fluid" style="background-color:#116798;">
@@ -112,7 +120,7 @@
     <br>
     <div class="row">
       <div class="col-sm-4">
-        <b>What is a hackathon?</b><br>
+        <b>What is Social Hacks?</b><br>
           Social Hacks is a hackathon where hackers design hardware and software
           to solve a social issue or help others better understand an issue.
         </div>
@@ -181,9 +189,10 @@
         <div class = "col-md-4"><a href="http://newyorkerbagels.com/"><img src="img/New York Bagels.jpg" style = "height: 200px; width: 200px"></a></div>
       </div>
       <div class = "row">
-        <div class = "col-md-4"></div>
-      <!--  <div class = "col-md-4"><a href = "https://chipotle.com/"><img src = "https://upload.wikimedia.org/wikipedia/en/thumb/3/3b/Chipotle_Mexican_Grill_logo.svg/480px-Chipotle_Mexican_Grill_logo.svg.png"
-           style = "height: 200px; width: 200px"></a></div> -->
+        <div class = "col-md-4"><a href="https://freshprints.com/"><img src = "img/fresh-prints-transparent.png"></div>
+        <div class = "col-md-4"><a href = "https://chipotle.com/"><img src = "https://upload.wikimedia.org/wikipedia/en/thumb/3/3b/Chipotle_Mexican_Grill_logo.svg/480px-Chipotle_Mexican_Grill_logo.svg.png"
+           style = "height: 200px; width: 200px"></a></div>
+        <div class = "col-md-4"><a href = "https://insomniacookies.com/"><img src = "img/insomnia-cookies-logo.png"></a></div>
       </div>
       <br>
     Want to sponsor us? Shoot us an email at socialhacksnyc@gmail.com!

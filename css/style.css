@@ -206,3 +206,8 @@ td {
   top:0;
   height: 200px;
 }
+
+#map {
+  height: 400px;
+  width: 100%;
+ }
