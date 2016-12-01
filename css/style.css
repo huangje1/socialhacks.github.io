@@ -206,3 +206,12 @@ td {
   top:0;
   height: 200px;
 }
+
+#map {
+  width: 90%;
+ }
+
+
+#where {
+  background-color: #116798;
+}
