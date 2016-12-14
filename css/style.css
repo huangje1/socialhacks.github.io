@@ -42,11 +42,10 @@ body {
   background-color: #fff;
   font: 20px;
   border-radius: 25px;
-  color: #116798;
 }
 
 .btn-custom:active{
-  color: #000;
+  color: #fff;
 }
 
 .btn-custom:focus,.btn-custom:active {
@@ -115,7 +114,7 @@ footer {
   padding: 20px;
   width: 100%;
   text-align:center;
-  position: fixed;
+  position: relative;
 }
 
 donate {
