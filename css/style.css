@@ -1,21 +1,22 @@
+/*@font-face {
+  font-family: Roboto;
+  src: url('../font/roboto/Roboto-Regular.woff');
+}*/
+
+@font-face {
+	font-family: LemonMilk;
+	src: url('../font/LemonMilk.otf');
+}
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+
 body {
-  font-family: Roboto, Arial, sans-serif;
+  font-family: 'Open Sans', Arial, sans-serif; /*Roboto,*/ 
   font-size: 2em;
   line-height: 2em;
   padding-top: 100px;
   background-image: url("../img/background.png");
   background-repeat: repeat;
-}
-
-@font-face {
-  font-family: Roboto;
-  src: url('../font/roboto/Roboto-Regular.woff');
-
-}
-
-@font-face {
-	font-family: LemonMilk;
-	src: url('../font/LemonMilk.otf');
 }
 
 .btn-custom {
@@ -145,6 +146,16 @@ donate {
   text-align: center;
   margin: auto;
   width: 80%;
+}
+
+.faq-question {
+  font-weight: bold;
+}
+
+.faq-answer {
+  font-weight: normal;
+  font-size: .8em;
+  line-height: 1.5em;
 }
 
 #about, #FAQ, #schedule, #judges, #sponsors {

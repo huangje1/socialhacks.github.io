@@ -1,6 +1,6 @@
-Social Hacks Website
+Social Hacks
 
-Copyright (C) 2016-2017 The Social Hacks Team
+Copyright &copy; 2016-2017 The Social Hacks Team
 
 Contributors:
 - Aidan Fitzgerald

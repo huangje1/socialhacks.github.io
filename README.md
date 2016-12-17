@@ -1,2 +1,3 @@
-# Social Hacks 2016
-Website for Social Hacks 2016
+# socialhacks.tech
+
+Website for Social Hacks (January 2017)
